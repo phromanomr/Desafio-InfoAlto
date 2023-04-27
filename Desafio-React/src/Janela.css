@@ -1,0 +1,78 @@
+.container{
+    padding:20px 5px 5px 10px;
+    margin-bottom: 30px;
+}
+
+.numeroTarefas{
+    font-size: 16px;
+    margin: 0px;
+    color: #8c317b;
+}
+
+.dados span{
+    text-align: center;
+    font-size: 24px;
+}
+
+.dados{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.botaoAdicionaElemento{
+    width:40px;
+    height:40px;
+    margin-top:5px;
+    font-size: 46px;
+    color:#8B52D1;
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    justify-content: space-around;
+    font-size: 18px;
+    
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:0px
+}
+
+.inputs input{
+    width:220px;
+    height: 25px;
+    border-radius: 12px;
+    border: none;
+    background: #D9D9D9;
+    margin-top:10px;
+}
+
+.buttons{
+    display: flex;
+    width:300px;
+    justify-content: space-around;
+}
+
+.buttons button{
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background: black;
+    color: #FFCEFE;
+}

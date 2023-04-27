@@ -1,0 +1,14 @@
+.lista{
+    margin-top: 5px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:row nowrap;
+}
+
+.lista div{
+    display: flex;
+    flex-flow:row nowrap;
+    align-items: center;
+}
